@@ -8,9 +8,7 @@ import org.springframework.mail.javamail.JavaMailSender;
 import org.springframework.mail.javamail.MimeMessageHelper;
 import org.springframework.stereotype.Service;
 import org.springframework.web.multipart.MultipartFile;
-
 import com.example.mail.service.EmailService;
-
 import jakarta.mail.Multipart;
 import jakarta.mail.internet.MimeMessage;
 
