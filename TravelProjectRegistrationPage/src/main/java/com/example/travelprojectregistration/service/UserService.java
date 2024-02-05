@@ -4,7 +4,7 @@ import com.example.travelprojectregistration.entity.User;
 
 public interface UserService {
 	
-	//Registeration Page
+	//Registration Page
 	User registerUser(User user);
 	
 	}

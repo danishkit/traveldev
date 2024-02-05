@@ -1,6 +1,6 @@
 package com.example.travelprojectregistration.serviceimpl;
 
-import org.springframework.beans.factory.annotation.Autowired;
+
 import org.springframework.stereotype.Service;
 
 import com.example.travelprojectregistration.entity.User;
