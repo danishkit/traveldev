@@ -38,7 +38,14 @@ public class User {
 	@Column(nullable = false)
 	private String password;
 	
-	@Column(nullable = false)
-	private String confirmPassword;
-	
+    @Override
+    public String toString() {
+        return "User{" +
+                "name='" + name + '\'' +
+                ", email='" + email + '\'' +
+                ", mobileNo='" + mobileNo + '\'' +
+                ", password='" + password + '\'' +
+                '}';
+    }
+
 }
